@@ -57,5 +57,5 @@ C:\laragon\bin
 - dans la console, taper ```$git remote [url du repository]```
 - Puis: 
     - $git add . 
-    - $git -m "description du commit" 
+    - $git commit -m "description du commit" 
     - $git push
