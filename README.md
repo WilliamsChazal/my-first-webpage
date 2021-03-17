@@ -18,7 +18,7 @@ C:\laragon\bin
     - Coller la ligne suivante à la place du contenu de settings.json:
     >{"terminal.integrated.shell.windows":}
     "C:\\laragon\\bin\\git\\bin\\bashe.exe"
-    
+
 ## lier git et github avec GitBash
 - dans la barre de tache Windows, utiliser la fonction recherche et taper "Git Gui" aller dans help et show SSH Key et generate key, (si pas besoin de passphrase OK*2) Copier la clef
 - Aller dans GitHUB -> Settings du profil -> SSH and PGP Key -> New SSH Key et coller la clef depuis le presse papier. Et cliquer sur "Add key".
@@ -59,6 +59,6 @@ C:\laragon\bin
 - Puis: 
     - $git add . 
     - $git commit -m "description du commit" 
+    - si vous n'etes pas dans un git clone mais repositry local qui n'est pas branché à un repositroy en ligne. : $git remote add origins URL SSH
     - $git push
 
-# Créer un nouveau repository 
